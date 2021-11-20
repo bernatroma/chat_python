@@ -1,6 +1,6 @@
 import socket
 
-mensaje = "dsa"
+mensaje = input("What you want to send?")
 
 def client_con_send():
     cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
